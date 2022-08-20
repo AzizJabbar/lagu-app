@@ -1,0 +1,23 @@
+.artistsHolder {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input,
+input:focus {
+  border-radius: 20px;
+  border: 1.5px solid #00b9d7;
+  width: 30%;
+  padding: 10px 20px;
+  display: block;
+  background-color: transparent;
+  margin: 30px auto;
+  color: white;
+  outline: none;
+}
+[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+  font-size: 40px;
+}
